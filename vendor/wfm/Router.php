@@ -21,10 +21,22 @@ class Router
         return self::$route;
     }
 
+    protected static function removeQueryString($url)
+    {
+        if ($url) {
+            $params = explode('&', $url, 2);
+            debug($params);
+            if (false === str_contains($params[0], '=')) {
+                return rtrim($params[0], '/');
+            }
+        }
+        return '';
+    }
+
     public static function dispatch($url)
     {
+        $url = self::removeQueryString($url);
         if (self::matchRoute($url)) {
-
             $controller = "\app\controllers\\" . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
             if (class_exists($controller)) {
                 $controllerObject = new $controller(self::$route);
