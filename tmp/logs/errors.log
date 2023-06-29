@@ -36,3 +36,17 @@
 =================
 [2023-06-29 21:58:50] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 59
 =================
+[2023-06-29 22:30:35] Текст ошибки: Call to undefined method app\controllers\admin\MainController::getModel() | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 46
+=================
+[2023-06-29 22:42:13] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 45
+=================
+[2023-06-29 22:44:51] Текст ошибки: Не найден вид C:\OSPanel\domains\new-ishop.loc/app/views/Main/index.php | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 32
+=================
+[2023-06-29 22:45:44] Текст ошибки: Не найден вид C:\OSPanel\domains\new-ishop.loc/app/views/Main/index.php | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 32
+=================
+[2023-06-29 22:51:58] Текст ошибки: Не найден шаблон C:\OSPanel\domains\new-ishop.loc/app/views/layouts/ishop.php | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 44
+=================
+[2023-06-29 22:52:54] Текст ошибки: Не найден шаблон C:\OSPanel\domains\new-ishop.loc/app/views/layouts/test.php | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 44
+=================
+[2023-06-29 22:53:35] Текст ошибки: Не найден шаблон C:\OSPanel\domains\new-ishop.loc/app/views/layouts/test2.php | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 44
+=================
