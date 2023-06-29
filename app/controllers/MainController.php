@@ -2,11 +2,12 @@
 
 namespace app\controllers;
 
-class MainController
+use wfm\Controller;
+
+class MainController extends Controller
 {
     public function indexAction()
     {
-        echo "Привет, мир";
         echo __METHOD__;
     }
 }
