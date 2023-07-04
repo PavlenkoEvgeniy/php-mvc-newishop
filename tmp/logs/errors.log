@@ -50,3 +50,17 @@
 =================
 [2023-06-29 22:53:35] Текст ошибки: Не найден шаблон C:\OSPanel\domains\new-ishop.loc/app/views/layouts/test2.php | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 44
 =================
+[2023-07-03 13:54:26] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 59
+=================
+[2023-07-03 14:00:47] Текст ошибки: syntax error, unexpected token "echo" | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\Main\index.php | Строка: 3
+=================
+[2023-07-03 14:00:48] Текст ошибки: syntax error, unexpected token "echo" | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\Main\index.php | Строка: 3
+=================
+[2023-07-03 14:02:08] Текст ошибки: Call to undefined method app\controllers\MainController::set() | Файл: C:\OSPanel\domains\new-ishop.loc\app\controllers\MainController.php | Строка: 13
+=================
+[2023-07-03 14:02:59] Текст ошибки: syntax error, unexpected token "echo" | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\Main\index.php | Строка: 3
+=================
+[2023-07-03 14:07:23] Текст ошибки: Undefined variable $test | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\Main\index.php | Строка: 3
+=================
+[2023-07-04 21:20:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 59
+=================

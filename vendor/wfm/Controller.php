@@ -30,7 +30,7 @@ abstract class Controller
         (new View($this->route, $this->layout, $this->view, $this->meta))->render($this->data);
     }
 
-    public function setData($data)
+    public function set($data)
     {
         $this->data = $data;
     }

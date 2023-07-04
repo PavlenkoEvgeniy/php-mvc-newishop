@@ -4,11 +4,14 @@ namespace app\controllers;
 
 use wfm\Controller;
 
+/** @property Main $model*/
 class MainController extends Controller
 {
-//    public false|string $layout = 'test2';
     public function indexAction()
     {
-//        $this->layout = 'test';
+        $names = $this->model->get_names();
+//        debug($names);
+        $this->setMeta('Главная страница', 'Description...', 'keywords...');
+        $this->set(compact('names'));
     }
 }
