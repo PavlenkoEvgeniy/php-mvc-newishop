@@ -1,6 +1,6 @@
 <?php
 
-namespace wfm;
+namespace core;
 
 use RedBeanPHP\R;
 

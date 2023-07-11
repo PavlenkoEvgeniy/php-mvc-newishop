@@ -1,7 +1,7 @@
 {
   "autoload": {
     "psr-4": {
-      "wfm\\": "vendor/wfm",
+      "core\\": "vendor/core",
       "app\\": "app"
     }
   },
