@@ -176,3 +176,25 @@
 =================
 [2023-07-11 15:52:29] Текст ошибки: Undefined variable $slides | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\Main\index.php | Строка: 6
 =================
+[2023-07-11 21:46:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 59
+=================
+[2023-07-11 21:52:34] Текст ошибки: Undefined variable $products | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\Main\index.php | Строка: 41
+=================
+[2023-07-11 21:53:08] Текст ошибки: Undefined variable $products | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\Main\index.php | Строка: 41
+=================
+[2023-07-11 21:53:11] Текст ошибки: Undefined variable $products | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\Main\index.php | Строка: 41
+=================
+[2023-07-11 21:54:59] Текст ошибки: Undefined variable $products | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\Main\index.php | Строка: 41
+=================
+[2023-07-11 21:57:39] Текст ошибки: Undefined variable $products | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\Main\index.php | Строка: 41
+=================
+[2023-07-11 22:01:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 59
+=================
+[2023-07-11 22:17:39] Текст ошибки: Undefined variable $products | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\parts\products_loop.php | Строка: 4
+=================
+[2023-07-11 22:17:58] Текст ошибки: Undefined variable $products | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\parts\products_loop.php | Строка: 4
+=================
+[2023-07-11 22:18:45] Текст ошибки: compact(): Undefined variable $1 | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\Main\index.php | Строка: 43
+=================
+[2023-07-11 22:18:46] Текст ошибки: compact(): Undefined variable $1 | Файл: C:\OSPanel\domains\new-ishop.loc\app\views\Main\index.php | Строка: 43
+=================
