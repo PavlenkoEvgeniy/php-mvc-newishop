@@ -4,6 +4,7 @@ namespace core;
 
 class Router
 {
+
     protected static array $routes = [];
     protected static array $route = [];
 
@@ -16,6 +17,7 @@ class Router
     {
         return self::$routes;
     }
+
     public static function getRoute(): array
     {
         return self::$route;
@@ -36,15 +38,18 @@ class Router
     {
         $url = self::removeQueryString($url);
         if (self::matchRoute($url)) {
-            $controller = "\app\controllers\\" . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
+            if (!empty(self::$route['lang'])) {
+                App::$app->setProperty('lang', self::$route['lang']);
+            }
+            $controller = 'app\controllers\\' . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
             if (class_exists($controller)) {
 
-                /** @var Conroller $controllerObject */
+                /** @var Controller $controllerObject */
                 $controllerObject = new $controller(self::$route);
 
                 $controllerObject->getModel();
 
-                $action = self::lowerCamelCase(self::$route['action']) . 'Action';
+                $action = self::lowerCamelCase(self::$route['action'] . 'Action');
                 if (method_exists($controllerObject, $action)) {
                     $controllerObject->$action();
                     $controllerObject->getView();
@@ -77,7 +82,6 @@ class Router
                 } else {
                     $route['admin_prefix'] .= '\\';
                 }
-
                 $route['controller'] = self::upperCamelCase($route['controller']);
                 self::$route = $route;
                 return true;
@@ -86,14 +90,16 @@ class Router
         return false;
     }
 
-    protected static function upperCamelCase($name): string {
-        $name = str_replace('-', ' ', $name);
-        $name = ucwords($name);
-        $name = str_replace(' ', '', $name);
-        return $name;
+    // CamelCase
+    protected static function upperCamelCase($name): string
+    {
+        return str_replace(' ', '', ucwords(str_replace('-', ' ', $name)));
     }
 
-    protected static function lowerCamelCase($name): string {
+    // camelCase
+    protected static function lowerCamelCase($name): string
+    {
         return lcfirst(self::upperCamelCase($name));
     }
+
 }
