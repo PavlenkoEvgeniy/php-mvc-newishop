@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use core\App;
+use core\Cache;
 use RedBeanPHP\R;
 
 /** @property Main $model*/
