@@ -1224,3 +1224,35 @@
 =================
 [2023-08-25 08:06:11] Текст ошибки: syntax error, unexpected token ";", expecting ")" | Файл: C:\OSPanel\domains\new-ishop.loc\app\controllers\MainController.php | Строка: 14
 =================
+[2023-08-25 09:25:02] Текст ошибки: require(C:\OSPanel\domains\new-ishop.loc\app\widgets\menu/menu_tpl.php): Failed to open stream: No such file or directory | Файл: C:\OSPanel\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 93
+=================
+[2023-08-25 09:25:53] Текст ошибки: require(C:\OSPanel\domains\new-ishop.loc\app\widgets\menu/menu_tpl.php): Failed to open stream: No such file or directory | Файл: C:\OSPanel\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 93
+=================
+[2023-08-31 22:30:50] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:50] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:50] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:50] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:56] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:56] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:56] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:56] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:56] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-08-31 22:30:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
