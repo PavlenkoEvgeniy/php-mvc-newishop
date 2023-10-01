@@ -20,14 +20,16 @@ class Menu
     protected $prepend = '';
     protected $language;
 
-    public function __construct($options = []){
+    public function __construct($options = [])
+    {
         $this->language = App::$app->getProperty('language');
         $this->tpl = __DIR__ . '/menu_tpl.php';
         $this->getOptions($options);
         $this->run();
     }
 
-    protected function getOptions($options){
+    protected function getOptions($options)
+    {
         foreach($options as $k => $v){
             if(property_exists($this, $k)){
                 $this->$k = $v;
@@ -35,7 +37,8 @@ class Menu
         }
     }
 
-    protected function run(){
+    protected function run()
+    {
         $cache = Cache::getInstance();
         $this->menuHtml = $cache->get("{$this->cacheKey}_{$this->language['code']}");
 
@@ -54,7 +57,8 @@ class Menu
         $this->output();
     }
 
-    protected function output(){
+    protected function output()
+    {
         $attrs = '';
         if(!empty($this->attrs)){
             foreach($this->attrs as $k => $v){
@@ -67,7 +71,8 @@ class Menu
         echo "</{$this->container}>";
     }
 
-    protected function getTree(){
+    protected function getTree()
+    {
         $tree = [];
         $data = $this->data;
         foreach ($data as $id=>&$node) {
@@ -80,7 +85,8 @@ class Menu
         return $tree;
     }
 
-    protected function getMenuHtml($tree, $tab = ''){
+    protected function getMenuHtml($tree, $tab = '')
+    {
         $str = '';
         foreach($tree as $id => $category){
             $str .= $this->catToTemplate($category, $tab, $id);
@@ -88,10 +94,10 @@ class Menu
         return $str;
     }
 
-    protected function catToTemplate($category, $tab, $id){
+    protected function catToTemplate($category, $tab, $id)
+    {
         ob_start();
         require $this->tpl;
         return ob_get_clean();
     }
-
 }

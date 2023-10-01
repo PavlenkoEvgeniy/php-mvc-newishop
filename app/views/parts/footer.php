@@ -110,10 +110,10 @@ use core\View;
     const PATH = '<?= PATH ?>';
 </script>
 
-<script src="<?= PATH ?>/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="<?= PATH ?>/assets/js/jquery-3.7.0.js"></script>
-<script src="<?= PATH ?>/assets/js/main.js"></script>
-<script src="<?= PATH ?>/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="<?= PATH ?>/public/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?= PATH ?>/public/assets/js/jquery-3.7.0.js"></script>
+<script src="<?= PATH ?>/public/assets/js/main.js"></script>
+<script src="<?= PATH ?>/public/assets/js/jquery.magnific-popup.min.js"></script>
 
 </body>
 </html>
