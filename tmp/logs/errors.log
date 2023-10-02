@@ -1410,3 +1410,103 @@
 =================
 [2023-10-02 12:01:12] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
 =================
+[2023-10-02 12:08:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:08:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:09:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:09:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:09:39] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:09:39] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:12:37] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:12:37] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:16:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:16:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:16:05] Текст ошибки: Метод app\controllers\CartController::deleteAction не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 57
+=================
+[2023-10-02 12:16:05] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:25:06] Текст ошибки: Не найден вид C:\OSPanel\domains\new-ishop.loc/app/views/Cart/delete.php | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\View.php | Строка: 36
+=================
+[2023-10-02 12:25:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:25:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:25:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:25:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:25:44] Текст ошибки: Не найден вид C:\OSPanel\domains\new-ishop.loc/app/views/Cart/delete.php | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\View.php | Строка: 36
+=================
+[2023-10-02 12:27:03] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:27:03] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:27:09] Текст ошибки: Не найден вид C:\OSPanel\domains\new-ishop.loc/app/views/Cart/delete.php | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\View.php | Строка: 36
+=================
+[2023-10-02 12:28:59] Текст ошибки: Не найден вид C:\OSPanel\domains\new-ishop.loc/app/views/Cart/delete.php | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\View.php | Строка: 36
+=================
+[2023-10-02 12:30:51] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:30:51] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:31:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:31:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:31:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:31:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:31:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:31:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:32:12] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:32:12] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:33:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:33:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:35:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:35:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:35:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:35:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:36:07] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:36:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:37:34] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:37:34] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:38:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:38:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:38:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:38:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:39:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:39:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:46:30] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 12:46:30] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================

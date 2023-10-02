@@ -21,7 +21,7 @@ return [
     'tpl_cart_btn_continue' => 'Continue shopping',
     'tpl_cart_btn_order' => 'Checkout',
     'tpl_cart_btn_clear' => 'Clear basket',
-    'tpl_cart_empty' => 'Empty basket',
+    'tpl_cart_empty' => 'Basket is empty',
 
     'tpl_login' => 'Authorization',
     'tpl_signup' => 'Registration',

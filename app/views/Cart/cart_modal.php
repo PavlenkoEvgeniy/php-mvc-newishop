@@ -20,7 +20,7 @@
                 <td><a href="product/<?= $item['slug'] ?>"><?= $item['title'] ?></a></td>
                 <td><?= $item['qty'] ?></td>
                 <td><?='$' . $item['price'] ?></td>
-                <td><a class="del-item" href="cart/delete?id=<?= $id ?>"><i class="far fa-trash-alt"></a></td>
+                <td><a class="del-item" href="cart/delete?id=<?= $id ?>" data-id="<?= $id ?>"><i class="far fa-trash-alt"></a></td>
             </tr>
             <?php endforeach; ?>
             <tr>
@@ -35,13 +35,13 @@
         </table>
     </div>
     <?php else: ?>
-        <h4 class="text-start">Empty Cart</h4>
+        <h4 class="text-start"><?php __('tpl_cart_empty') ?></h4>
     <?php endif;?>
 </div>
 <div class="modal-footer">
     <button type="button" class="btn btn-success ripple" data-bs-dismiss="modal"><?php __('tpl_cart_btn_continue')?></button>
     <?php if (!empty($_SESSION['cart'])): ?>
     <button type="button" class="btn btn-primary"><?php __('tpl_cart_btn_order')?></button>
-    <button type="button" class="btn btn-danger"><?php __('tpl_cart_empty')?></button>
+    <button type="button" class="btn btn-danger" id="clear-cart"><?php __('tpl_cart_btn_clear')?></button>
     <?php endif;?>
 </div>
