@@ -31,4 +31,9 @@ class CartController extends AppController
         redirect();
         return true;
     }
+
+    public function showAction()
+    {
+        $this->loadView('cart_modal');
+    }
 }

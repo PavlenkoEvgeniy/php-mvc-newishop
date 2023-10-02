@@ -8,7 +8,7 @@ use core\View;
     <base href="<?= base_url() ?>>">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="<?= PATH ?>/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= PATH ?>/public/assets/bootstrap/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
@@ -38,9 +38,9 @@ use core\View;
                     </form>
                     <a href="#" class="open-search"><i class="fas fa-search"></i></a>
 
-                    <a href="#" class="relative" data-bs-toggle="modal" data-bs-target="#cart-modal">
+                    <a href="#" class="relative" id="get-cart" data-bs-toggle="modal" data-bs-target="#cart-modal">
                         <i class="fas fa-shopping-cart"></i>
-                        <span class="badge bg-danger rounded-pill count-items">0</span>
+                        <span class="badge bg-danger rounded-pill count-items"><?= $_SESSION['cart.qty'] ?? 0 ?></span>
                     </a>
 
                     <a href="#"><i class="far fa-heart"></i></a>
@@ -77,29 +77,6 @@ use core\View;
                             'class' => 'navbar-nav ms-auto mb-2 mb-lg-0',
                             'cache' => 30,
                         ]) ?>
-<!--                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">-->
-<!--                            <li class="nav-item">-->
-<!--                                <a class="nav-link" href="category.html">Компьютеры</a>-->
-<!--                            </li>-->
-<!--                            <li class="nav-item">-->
-<!--                                <a class="nav-link" href="category.html">Планшеты</a>-->
-<!--                            </li>-->
-<!--                            <li class="nav-item dropdown">-->
-<!--                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
-<!--                                    Ноутбуки-->
-<!--                                </a>-->
-<!--                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">-->
-<!--                                    <li><a class="dropdown-item" href="category.html">Mac</a></li>-->
-<!--                                    <li><a class="dropdown-item" href="category.html">Windows</a></li>-->
-<!--                                </ul>-->
-<!--                            </li>-->
-<!--                            <li class="nav-item">-->
-<!--                                <a class="nav-link" href="category.html">Телефоны</a>-->
-<!--                            </li>-->
-<!--                            <li class="nav-item">-->
-<!--                                <a class="nav-link" href="category.html">Камеры</a>-->
-<!--                            </li>-->
-<!--                        </ul>-->
                     </div>
 
                 </div>

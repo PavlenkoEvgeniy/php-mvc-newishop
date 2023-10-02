@@ -13,7 +13,7 @@ body {
 	padding-top: 135px;
 }
 
-img{
+img {
 	max-width: 100%;
 	height: auto;
 }
@@ -65,7 +65,7 @@ section {
 	border-width: 0 10px;
 }
 
-.btn{
+.btn {
 	position: relative;
 	overflow: hidden;
 }
@@ -98,7 +98,7 @@ section {
 }
 
 a:hover,
-a:focus{
+a:focus {
 	text-decoration: none;
 	color: #000;
 }
@@ -184,6 +184,10 @@ li a.dropdown-item:focus, li a.dropdown-item:hover {
 
 .modal-body img {
 	max-width: 100px;
+}
+
+.cart-table img {
+	max-height: 50px;
 }
 
 .modal-body a {
