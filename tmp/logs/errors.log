@@ -1332,3 +1332,37 @@
 =================
 [2023-10-02 09:02:11] Текст ошибки: Не найден вид C:\OSPanel\domains\new-ishop.loc/app/views/Cart/add.php | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\View.php | Строка: 36
 =================
+[2023-10-02 09:56:56] Текст ошибки: require(C:\OSPanel\domains\new-ishop.loc/app/views/Cart/cart_model.php): Failed to open stream: No such file or directory | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Controller.php | Строка: 56
+=================
+[2023-10-02 09:58:46] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 10:02:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 10:02:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 10:02:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 10:02:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 10:02:40] Текст ошибки: require(C:\OSPanel\domains\new-ishop.loc/app/views/Cart/cart_model.php): Failed to open stream: No such file or directory | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Controller.php | Строка: 56
+=================
+[2023-10-02 10:02:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 10:02:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 10:02:59] Текст ошибки: require(C:\OSPanel\domains\new-ishop.loc/app/views/Cart/cart_model.php): Failed to open stream: No such file or directory | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Controller.php | Строка: 56
+=================
+[2023-10-02 10:06:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 10:06:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 10:06:09] Текст ошибки: require(C:\OSPanel\domains\new-ishop.loc/app/views/Cart/cart_model.php): Failed to open stream: No such file or directory | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Controller.php | Строка: 56
+=================
+[2023-10-02 10:07:35] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 10:07:35] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 10:08:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-02 10:08:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
