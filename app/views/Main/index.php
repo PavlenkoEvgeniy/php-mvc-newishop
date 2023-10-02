@@ -39,7 +39,7 @@ use core\View;
 
     </div>
 <?php endif; ?>
-
+<?php debug($_SESSION) ?>
 <?php if (!empty($products)): ?>
     <section class="featured-products">
         <div class="container">
