@@ -1840,3 +1840,9 @@
 =================
 [2023-10-04 09:03:09] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: C:\OSPanel\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 75
 =================
+[2023-10-04 09:09:57] Текст ошибки: Товар по запросу apple-cinema-301 не найден | Файл: C:\OSPanel\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 18
+=================
+[2023-10-04 09:10:24] Текст ошибки: Товар по запросу apple-cinema-301 не найден | Файл: C:\OSPanel\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 18
+=================
+[2023-10-04 09:17:09] Текст ошибки: Товар по запросу apple-cinema-301 не найден | Файл: C:\OSPanel\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 18
+=================

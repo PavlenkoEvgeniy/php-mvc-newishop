@@ -3,7 +3,6 @@
 use core\View;
 
 /** @var $this View
- *  @var $product
  */
 ?>
 <div class="container">
@@ -24,7 +23,7 @@ use core\View;
 
             <ul class="list-unstyled">
                 <li><i class="fas fa-check text-success"></i> В наличии</li>
-                <li><i class="fas fa-shipping-fast text-muted"></i> Ожидается</li>
+<!--                <li><i class="fas fa-shipping-fast text-muted"></i> Ожидается</li>-->
                 <li><i class="fas fa-hand-holding-usd"></i>
                     <span class="product-price">
                         <?php if ($product['old_price']):?>
