@@ -1846,3 +1846,21 @@
 =================
 [2023-10-04 09:17:09] Текст ошибки: Товар по запросу apple-cinema-301 не найден | Файл: C:\OSPanel\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 18
 =================
+[2023-10-04 23:57:15] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-04 23:57:15] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-10 08:39:01] Текст ошибки: Call to undefined method app\models\Category::get_category() | Файл: C:\OSPanel\domains\new-ishop.loc\app\controllers\CategoryController.php | Строка: 13
+=================
+[2023-10-10 08:39:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-10 08:39:52] Текст ошибки: Call to undefined method app\models\Category::get_category() | Файл: C:\OSPanel\domains\new-ishop.loc\app\controllers\CategoryController.php | Строка: 13
+=================
+[2023-10-10 09:22:16] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-10 09:27:12] Текст ошибки: Access to undeclared static property app\widgets\menu\Menu::$this | Файл: C:\OSPanel\domains\new-ishop.loc\app\controllers\CategoryController.php | Строка: 25
+=================
+[2023-10-11 07:08:57] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-11 07:17:15] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
