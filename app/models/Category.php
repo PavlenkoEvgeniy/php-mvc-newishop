@@ -33,6 +33,6 @@ class Category extends AppModel
 
     public function get_count_products($ids): int
     {
-        return R::count('product', "category_id IN ($ids)");
+        return R::count('product', "category_id IN ($ids) AND status = 1");
     }
 }
