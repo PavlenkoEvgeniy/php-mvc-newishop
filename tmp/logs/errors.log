@@ -1920,3 +1920,45 @@
 =================
 [2023-10-18 09:38:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
 =================
+[2023-10-18 09:53:12] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 09:53:32] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:08:23] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:08:44] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:10:26] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:12:59] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:13:00] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:13:05] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:16:11] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:16:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-18 10:16:55] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:24:26] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:24:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-18 10:25:09] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:25:17] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:25:35] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-18 10:26:13] Текст ошибки: Division by zero | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Pagination.php | Строка: 101
+=================
+[2023-10-18 10:32:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-18 10:32:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-18 10:43:52] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-18 10:43:52] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
