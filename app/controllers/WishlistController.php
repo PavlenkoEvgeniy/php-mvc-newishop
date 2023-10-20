@@ -2,9 +2,18 @@
 
 namespace app\controllers;
 
+use core\App;
+
 /** @property Wishlist $model*/
 class WishlistController extends AppController
 {
+    public function indexAction()
+    {
+        $lang = App::$app->getProperty('language');
+        $products = $this->model->get_wishlist_products($lang);
+        $this->setMeta(___('wishlist_index_title'));
+        $this->set(compact('products'));
+    }
 
     public function addAction()
     {

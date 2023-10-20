@@ -73,8 +73,9 @@ use core\View;
 
 <script src="<?= PATH ?>/public/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="<?= PATH ?>/public/assets/js/jquery-3.7.0.js"></script>
-<script src="<?= PATH ?>/public/assets/js/main.js"></script>
 <script src="<?= PATH ?>/public/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="<?= PATH ?>/public/assets/js/main.js"></script>
+<script src="<?= PATH ?>/public/assets/js/sweetalert2.js"></script>
 
 </body>
 </html>
