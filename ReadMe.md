@@ -1,4 +1,4 @@
-# Пет-проект - PHP MVC фреймворк интернет магазина
+# Пет-проект - CMS интернет магазина (PHP, MVC)
 
-PHP MVC фреймворк интернет магазина, который я постепенно делал когда учил PHP и проходил курс от htmlacademy и WebForMyself.  
-PHP 8, MVC, ООП, MySQL, jquery, bootstrap.
+PHP8 MVC фреймворк интернет магазина, который я самомтоятельно постепенно делал когда учил PHP и проходил курсы от htmlacademy и WebForMyself.  
+PHP 8, MVC, ООП, MySQL, RedbeanPHP, jquery, bootstrap.
