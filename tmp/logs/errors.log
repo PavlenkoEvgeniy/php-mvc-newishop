@@ -2122,3 +2122,35 @@
 =================
 [2023-10-20 14:42:04] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
 =================
+[2023-10-20 17:52:55] Текст ошибки: Too few arguments to function app\models\Wishlist::delete_from_wishlist(), 0 passed in C:\OSPanel\domains\new-ishop.loc\app\controllers\WishlistController.php on line 42 and exactly 1 expected | Файл: C:\OSPanel\domains\new-ishop.loc\app\models\Wishlist.php | Строка: 57
+=================
+[2023-10-20 17:53:06] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-20 17:53:06] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-20 17:54:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-20 17:54:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-20 17:54:10] Текст ошибки: Call to undefined function app\controllers\json_encide() | Файл: C:\OSPanel\domains\new-ishop.loc\app\controllers\WishlistController.php | Строка: 47
+=================
+[2023-10-20 17:57:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-20 17:57:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-20 17:57:19] Текст ошибки: Call to undefined function app\controllers\json_encide() | Файл: C:\OSPanel\domains\new-ishop.loc\app\controllers\WishlistController.php | Строка: 47
+=================
+[2023-10-20 17:57:28] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-20 17:57:28] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-20 17:57:53] Текст ошибки: Call to undefined function app\controllers\json_encide() | Файл: C:\OSPanel\domains\new-ishop.loc\app\controllers\WishlistController.php | Строка: 47
+=================
+[2023-10-20 17:58:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-20 17:58:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-20 18:01:26] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-20 18:01:26] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
