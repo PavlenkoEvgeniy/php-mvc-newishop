@@ -8,18 +8,16 @@ use core\View;
             <div class="row">
                 <div class="col-md-3 col-6">
                     <h4><?php __('tpl_information'); ?></h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">О магазине</a></li>
-                        <li><a href="#">Оплата и доставка</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
+                    <?php new \app\widgets\page\Page([
+//                        'cache' => 0,
+                        'class' => 'list-unstyled',
+                        'prepend' => '<li><a href="' . base_url() . '">' . ___('tpl_home_link') . '</a></li>',
+                    ]) ?>
                 </div>
-
                 <div class="col-md-3 col-6">
                     <h4><?php __('tpl_work_hours'); ?></h4>
                     <ul class="list-unstyled">
-                        <li>г. Калининград, ул. Нифантова, 10</li>
+                        <li>г. Санкт-Петербург, ул. Ленина, 10</li>
                         <li>пн-вс: 9:00 - 18:00</li>
                         <li>без перерыва</li>
                     </ul>
@@ -55,7 +53,7 @@ use core\View;
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel"><?= __('tpl_cart_title') ?></h5>
+                <h5 class="modal-title" id="exampleModalLabel"><?php __('tpl_cart_title'); ?></h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-cart-content">

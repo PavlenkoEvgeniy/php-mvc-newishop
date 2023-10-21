@@ -2154,3 +2154,11 @@
 =================
 [2023-10-20 18:01:26] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
 =================
+[2023-10-21 15:07:44] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-21 15:07:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-21 15:08:15] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
+[2023-10-21 15:08:18] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
+=================
