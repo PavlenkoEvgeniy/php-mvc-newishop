@@ -16,8 +16,8 @@ return [
     'tpl_cart_product' => 'Товар',
     'tpl_cart_qty' => 'Кол-во',
     'tpl_cart_price' => 'Цена',
-    'tpl_cart_total_qty' => 'Итоговое кол-во:',
-    'tpl_cart_total_sum' => 'Итоговая сумма:',
+    'tpl_cart_total_qty' => 'Итого:',
+    'tpl_cart_sum' => 'Сумма:',
     'tpl_cart_btn_continue' => 'Продолжить покупки',
     'tpl_cart_btn_order' => 'Оформить заказ',
     'tpl_cart_btn_clear' => 'Очистить корзину',
@@ -40,7 +40,7 @@ return [
 
     'tpl_search_title' => 'Поиск',
     'tpl_search_query' => 'Поиск по: ',
-    'tpl_search_not_found' => 'По запросу ничего не найдено.',
+    'tpl_search_not_found' => 'По запросу ничего не найдено',
 
     'tpl_wishlist_add_success' => 'Товар добавлен в избранное',
     'tpl_wishlist_add_error' => 'Ошибка добавления товара в избранное',

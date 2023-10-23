@@ -16,12 +16,12 @@ return [
     'tpl_cart_product' => 'Product',
     'tpl_cart_qty' => 'Qty',
     'tpl_cart_price' => 'Price',
-    'tpl_cart_total_qty' => 'Total quantity:',
-    'tpl_cart_total_sum' => 'Total Sum:',
+    'tpl_cart_total_qty' => 'Total:',
+    'tpl_cart_sum' => 'Sum:',
     'tpl_cart_btn_continue' => 'Continue shopping',
     'tpl_cart_btn_order' => 'Checkout',
     'tpl_cart_btn_clear' => 'Clear basket',
-    'tpl_cart_empty' => 'Basket is empty',
+    'tpl_cart_empty' => 'Empty basket',
 
     'tpl_login' => 'Login',
     'tpl_signup' => 'Signup',
@@ -41,7 +41,7 @@ return [
 
     'tpl_search_title' => 'Search',
     'tpl_search_query' => 'Search by: ',
-    'tpl_search_not_found' => 'No results were found for your search.',
+    'tpl_search_not_found' => 'No results were found for your search',
 
     'tpl_wishlist_add_success' => 'Product added to favorites',
     'tpl_wishlist_add_error' => 'Error adding product to favorites',
