@@ -1,5 +1,5 @@
-# WebStorm files
-#.idea/
+# PhpStorm files
+.idea/
 
 # Temporary files
-#tmp/
+tmp/
