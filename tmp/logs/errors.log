@@ -2162,3 +2162,15 @@
 =================
 [2023-10-21 15:08:18] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 60
 =================
+[2023-10-23 11:38:26] Текст ошибки: Not found language page | Файл: C:\OSPanel\domains\new-ishop.loc\app\widgets\language\Language.php | Строка: 41
+=================
+[2023-10-23 11:38:26] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-23 11:44:50] Текст ошибки: Not found language page | Файл: C:\OSPanel\domains\new-ishop.loc\app\widgets\language\Language.php | Строка: 41
+=================
+[2023-10-23 11:52:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-23 11:52:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
+[2023-10-23 11:52:31] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\new-ishop.loc\vendor\core\Router.php | Строка: 64
+=================
