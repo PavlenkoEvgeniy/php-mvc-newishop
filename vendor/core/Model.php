@@ -7,7 +7,7 @@ use Valitron\Validator;
 abstract class Model
 {
     public array $attributes = []; // что именно мы ожидаем от пользователя чтобы не могло попасть ничего лишнего
-    public array $errors = []; // ошибки
+    public array $errors = []; // ошибки валидации
     public array $rules = []; // правила валидации
     public array $labels = []; // переводные фразы для ошибки валидации
 
