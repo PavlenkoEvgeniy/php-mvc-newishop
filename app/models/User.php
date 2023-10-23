@@ -2,6 +2,8 @@
 
 namespace app\models;
 
+use RedBeanPHP\R;
+
 class User extends AppModel
 {
     // безопасные данные
@@ -29,9 +31,24 @@ class User extends AppModel
         'address' => 'tpl_signup_address_input',
     ];
 
+    // проверка залогинен ли юзер
     public static function checkAuth(): bool
     {
         return isset($_SESSION['user']);
     }
+
+    // проверка есть ли такой пользователь в базе данных
+    public function checkUnique($text_error = ''): bool
+    {
+        $user = R::findOne('user', 'email = ?', [$this->attributes['email']]);
+
+        if ($user) {
+            $this->errors['unique'][] = $text_error ?: ___('user_signup_error_email_unique');
+            return false;
+        }
+        return true;
+    }
+
+
 
 }
