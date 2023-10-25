@@ -28,7 +28,7 @@
                 <td class="cart-qty"><?= $_SESSION['cart.qty'] ?></td>
             </tr>
             <tr>
-                <td colspan="4" class="text-end"><?php __('tpl_cart_total_sum')?></td>
+                <td colspan="4" class="text-end"><?php __('tpl_cart_sum')?></td>
                 <td class="cart-sum"><?= '$' .  $_SESSION['cart.sum'] ?></td>
             </tr>
             </tbody>
@@ -41,7 +41,7 @@
 <div class="modal-footer">
     <button type="button" class="btn btn-success ripple" data-bs-dismiss="modal"><?php __('tpl_cart_btn_continue')?></button>
     <?php if (!empty($_SESSION['cart'])): ?>
-    <button type="button" class="btn btn-primary"><?php __('tpl_cart_btn_order')?></button>
+    <a href="cart/view" type="button" class="btn btn-primary"><?php __('tpl_cart_btn_order')?></a>
     <button type="button" class="btn btn-danger" id="clear-cart"><?php __('tpl_cart_btn_clear')?></button>
     <?php endif;?>
 </div>
