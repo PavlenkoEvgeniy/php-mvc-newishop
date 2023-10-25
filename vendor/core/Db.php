@@ -23,6 +23,11 @@ class Db
         if (DEBUG) {
             R::debug(true, 3);
         }
+
+        // чтобы обойти ограничение RedbeanPHP в использовании подчеркивания в названии таблиц
+        R::ext('xdispense', function( $type ){
+            return R::getRedBean()->dispense( $type );
+        });
     }
 
 }

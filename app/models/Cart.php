@@ -31,7 +31,7 @@ class Cart extends AppModel
                 'price' => $product['price'],
                 'qty' => $qty,
                 'img' => $product['img'],
-                'is_downlosd' => $product['is_download'],
+                'is_download' => $product['is_download'],
             ];
         }
         $_SESSION['cart.qty'] = !empty($_SESSION['cart.qty']) ? $_SESSION['cart.qty'] + $qty : $qty;
