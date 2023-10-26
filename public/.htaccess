@@ -1,3 +1,4 @@
+# Запрещаем доступ к файлм
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteCond %{REQUEST_FILENAME} !-d

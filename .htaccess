@@ -1,4 +1,4 @@
-# Запрещаем доступ к файлам
+#Перенаправляем в папку public
 AddDefaultCharset utf-8;
 
 RewriteEngine On
