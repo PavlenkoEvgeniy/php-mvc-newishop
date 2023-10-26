@@ -4,6 +4,7 @@ namespace core;
 
 class App
 {
+
     public static object $app;
 
     public function __construct()
@@ -25,6 +26,5 @@ class App
             }
         }
     }
-
 
 }
