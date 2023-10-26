@@ -8,8 +8,8 @@ return [
     'smtp_host' => 'sandbox.smtp.mailtrap.io',
     'smtp_auth' => true,
     'smtp_port' => 2525,
-    'smtp_username' => 'b83c3349cfea4b',
-    'smtp_password' => '********c1a5',
+    'smtp_username' => '843e8cd13a8e92',
+    'smtp_password' => '705d4557914b56',
     'smtp_secure' => null, //ssl
-    'smtp_from_email' => 'ab21d4d0c4-d29ee3@inbox.mailtrap.io',
+    'smtp_from_email' => '2e082128a0-df2b21@inbox.mailtrap.io',
 ];
