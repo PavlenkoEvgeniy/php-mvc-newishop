@@ -6,9 +6,9 @@
     <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
 </footer>
 
-<!--<div class="logs">-->
-<!--    --><?php //$this->getDbLogs(); ?>
-<!--</div>-->
+<div class="logs">
+    <?php $this->getDbLogs(); ?>
+</div>
 
 <!-- Control Sidebar -->
 <aside class="control-sidebar control-sidebar-dark">
