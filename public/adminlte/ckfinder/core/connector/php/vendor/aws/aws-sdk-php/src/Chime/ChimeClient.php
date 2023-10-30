@@ -327,6 +327,10 @@ use Aws\AwsClient;
  * @method \GuzzleHttp\Promise\Promise searchAvailablePhoneNumbersAsync(array $args = [])
  * @method \Aws\Result sendChannelMessage(array $args = [])
  * @method \GuzzleHttp\Promise\Promise sendChannelMessageAsync(array $args = [])
+ * @method \Aws\Result startMeetingTranscription(array $args = [])
+ * @method \GuzzleHttp\Promise\Promise startMeetingTranscriptionAsync(array $args = [])
+ * @method \Aws\Result stopMeetingTranscription(array $args = [])
+ * @method \GuzzleHttp\Promise\Promise stopMeetingTranscriptionAsync(array $args = [])
  * @method \Aws\Result tagAttendee(array $args = [])
  * @method \GuzzleHttp\Promise\Promise tagAttendeeAsync(array $args = [])
  * @method \Aws\Result tagMeeting(array $args = [])
@@ -381,5 +385,7 @@ use Aws\AwsClient;
  * @method \GuzzleHttp\Promise\Promise updateVoiceConnectorAsync(array $args = [])
  * @method \Aws\Result updateVoiceConnectorGroup(array $args = [])
  * @method \GuzzleHttp\Promise\Promise updateVoiceConnectorGroupAsync(array $args = [])
+ * @method \Aws\Result validateE911Address(array $args = [])
+ * @method \GuzzleHttp\Promise\Promise validateE911AddressAsync(array $args = [])
  */
 class ChimeClient extends AwsClient {}
