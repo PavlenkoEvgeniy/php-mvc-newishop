@@ -29,6 +29,7 @@
 <script src="<?= PATH ?>/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="<?= PATH ?>/adminlte/dist/js/adminlte.min.js"></script>
+<script src="<?= PATH ?>/adminlte/plugins/select2/js/select2.full.js""></script>
 <script src="<?= PATH ?>/adminlte/main.js"></script>
 </body>
 </html>

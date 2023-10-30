@@ -17,9 +17,11 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="<?= PATH ?>/adminlte/dist/css/adminlte.min.css">
     <link rel="stylesheet" href="<?= PATH ?>/adminlte/main.css">
+    <link rel="stylesheet" href="<?= PATH ?>/adminlte/plugins/select2/css/select2.min.css">
 
     <script src="<?= PATH ?>/adminlte/ckeditor/ckeditor.js"></script>
     <script src="<?= PATH ?>/adminlte/ckfinder/ckfinder.js"></script>
+
 </head>
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
