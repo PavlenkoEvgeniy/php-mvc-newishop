@@ -30,9 +30,13 @@ class ProductController extends AppController
     {
         if (!empty($_POST)) {
             if ($this->model->product_validate()) {
-                $_SESSION['success'] = "Товар добавлен";
+                if($this->model->save_product()) {
+                    $_SESSION['success'] = "Товар добавлен";
+                } else {
+                    $_SESSION['errors'] = "Ошибка добавления товара";
+                }
+
             }
-            debug($_POST, 1);
             redirect();
         }
 
@@ -43,26 +47,6 @@ class ProductController extends AppController
 
     public function getDownloadAction()
     {
-        /*$data = [
-            'items' => [
-                [
-                    'id' => 1,
-                    'text' => 'Файл 1',
-                ],
-                [
-                    'id' => 2,
-                    'text' => 'Файл 2',
-                ],
-                [
-                    'id' => 3,
-                    'text' => 'File 1',
-                ],
-                [
-                    'id' => 4,
-                    'text' => 'File 2',
-                ],
-            ],
-        ];*/
         $q = get('q', 's');
         $downloads = $this->model->get_downloads($q);
         echo json_encode($downloads);
