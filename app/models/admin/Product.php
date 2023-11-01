@@ -151,4 +151,70 @@ class Product extends AppModel
         return R::getCol("SELECT img FROM product_gallery WHERE product_id = ?", [$id]);
     }
 
+    public function update_product($id): bool
+    {
+        R::begin();
+
+        try {
+            // обновляем данные в таблице product
+            $product = R::load('product', $id);
+            if (!$product) {
+                return false;
+            }
+            $product->category_id = post('parent_id', 'i');
+            $product->price = post('price', 'f');
+            $product->old_price = post('old_price', 'f');
+            $product->status = post('status') ? 1 : 0;
+            $product->hit = post('hit') ? 1 : 0;
+            $product->img = post('img') ?: NO_IMAGE;
+            $product->is_download = post('is_download') ? 1 : 0;
+            $product_id = R::store($product);
+
+            // обновляем данные в таблице product_description
+            foreach ($_POST['product_description'] as $lang_id => $item) {
+                R::exec("UPDATE product_description SET title = ?, content = ?, exerpt = ?, keywords = ?, description = ? WHERE product_id = ? AND language_id = ?", [
+                    $item['title'],
+                    $item['content'],
+                    $item['exerpt'],
+                    $item['keywords'],
+                    $item['description'],
+                    $id,
+                    $lang_id,
+                ]);
+            }
+
+            // обновляем таблицу product_description если есть прикрепленная картинка, если нет то удаляем все
+            if (!isset($_POST['gallery'])) {
+                R::exec("DELETE FROM product_gallery WHERE product_id = ?", [$id]);
+            }
+
+            if (isset($_POST['gallery']) && is_array($_POST['gallery'])) {
+                $gallery = self::get_gallery($id);
+
+                if ( (count($gallery) != count($_POST['gallery'])) || array_diff($gallery, $_POST['gallery']) || array_diff($_POST['gallery'], $gallery) ) {
+                    R::exec("DELETE FROM product_gallery WHERE product_id = ?", [$id]);
+                    $sql = "INSERT INTO product_gallery (product_id, img) VALUES ";
+                    foreach ($_POST['gallery'] as $item) {
+                        $sql .= "({$id}, ?),";
+                    }
+                    $sql = rtrim($sql, ',');
+                    R::exec($sql, $_POST['gallery']);
+                }
+            }
+
+            // обновляем таблицу product_download, если продукт цифровой
+            R::exec("DELETE FROM product_download WHERE product_id = ?", [$id]);
+            if ($product->is_download) {
+                $download_id = post('is_download', 'i');
+                R::exec("INSERT INTO product_download (product_id, download_id) VALUES (?,?)", [$product_id, $download_id]);
+            }
+
+            R::commit();
+            return true;
+        } catch(\Exception $e) {
+            R::rollback();
+            return false;
+        }
+    }
+
 }

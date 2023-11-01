@@ -30,27 +30,18 @@ class ProductController extends AppController
     {
         if (!empty($_POST)) {
             if ($this->model->product_validate()) {
-                if($this->model->save_product()) {
-                    $_SESSION['success'] = "Товар добавлен";
+                if ($this->model->save_product()) {
+                    $_SESSION['success'] = 'Товар добавлен';
                 } else {
-                    $_SESSION['errors'] = "Ошибка добавления товара";
+                    $_SESSION['errors'] = 'Ошибка добавления товара';
                 }
-
             }
             redirect();
         }
 
-        $title = 'Новый товар товаров';
+        $title = 'Новый товар';
         $this->setMeta("Админка :: {$title}");
         $this->set(compact('title'));
-    }
-
-    public function getDownloadAction()
-    {
-        $q = get('q', 's');
-        $downloads = $this->model->get_downloads($q);
-        echo json_encode($downloads);
-        die;
     }
 
     public function editAction()
@@ -58,7 +49,14 @@ class ProductController extends AppController
         $id = get('id');
 
         if (!empty($_POST)) {
-
+            if ($this->model->product_validate()) {
+                if ($this->model->update_product($id)) {
+                    $_SESSION['success'] = 'Товар сохранен';
+                } else {
+                    $_SESSION['errors'] = 'Ошибка обновления товара';
+                }
+            }
+            redirect();
         }
 
         $product = $this->model->get_product($id);
@@ -69,10 +67,18 @@ class ProductController extends AppController
         $gallery = $this->model->get_gallery($id);
 
         $lang = App::$app->getProperty('language')['id'];
-        App::$app->setProperty('category_id', $product[$lang]['category_id']);
+        App::$app->setProperty('parent_id', $product[$lang]['category_id']);
         $title = 'Редактирование товара';
         $this->setMeta("Админка :: {$title}");
         $this->set(compact('title', 'product', 'gallery'));
+    }
+
+    public function getDownloadAction()
+    {
+        $q = get('q', 's');
+        $downloads = $this->model->get_downloads($q);
+        echo json_encode($downloads);
+        die;
     }
 
 }

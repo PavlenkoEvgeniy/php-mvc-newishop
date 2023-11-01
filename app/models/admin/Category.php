@@ -38,7 +38,8 @@ class Category extends AppModel
             R::store($category);
 
             foreach ($_POST['category_description'] as $lang_id => $item) {
-                R::exec("INSERT INTO category_description (category_id, language_id, title, description, keywords, content) VALUES (?,?,?,?,?,?)", [$category_id,
+                R::exec("INSERT INTO category_description (category_id, language_id, title, description, keywords, content) VALUES (?,?,?,?,?,?)", [
+                    $category_id,
                     $lang_id,
                     $item['title'],
                     $item['description'],
