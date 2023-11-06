@@ -24,6 +24,26 @@ class UserController extends AppController
         $this->set(compact('title', 'users', 'pagination', 'total'));
     }
 
+    public function viewAction()
+    {
+        $id = get('id');
+        $user = $this->model->get_user($id);
+        if (!$user) {
+            throw new \Exception('Not founud user', 404);
+        }
+
+        $page = get('page');
+        $perpage = 10;
+        $total = $this->model->get_count_orders($id);
+        $pagination = new Pagination($page, $perpage, $total);
+        $start = $pagination->getStart();
+
+        $orders = $this->model->get_user_orders($start, $perpage, $id);
+        $title = 'Профиль пользователя';
+        $this->setMeta("Админка :: {$title}");
+        $this->set(compact('title', 'user', 'pagination', 'total', 'orders'));
+    }
+
     public function loginAdminAction()
     {
         if ($this->model::isAdmin()) {
