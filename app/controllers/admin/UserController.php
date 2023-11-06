@@ -33,7 +33,7 @@ class UserController extends AppController
         }
 
         $page = get('page');
-        $perpage = 10;
+        $perpage = 1;
         $total = $this->model->get_count_orders($id);
         $pagination = new Pagination($page, $perpage, $total);
         $start = $pagination->getStart();
@@ -42,6 +42,40 @@ class UserController extends AppController
         $title = 'Профиль пользователя';
         $this->setMeta("Админка :: {$title}");
         $this->set(compact('title', 'user', 'pagination', 'total', 'orders'));
+    }
+
+    public function editAction()
+    {
+        $id = get('id');
+        $user = $this->model->get_user($id);
+        if (!$user) {
+            throw new \Exception('Not founud user', 404);
+        }
+
+        if (!empty($_POST)) {
+            $this->model->load();
+            if (empty($this->model->attributes['password'])) {
+                unset($this->model->attributes['password']);
+            }
+
+            if (!$this->model->validate($this->model->attributes) || !$this->model->checkEmail($user)) {
+                $this->model->getErrors();
+            } else {
+                if (!empty($this->model->attributes['password'])) {
+                    $this->model->attributes['password'] = password_hash($this->model->attributes['password'], PASSWORD_DEFAULT);
+                }
+                if ($this->model->update('user', $id)) {
+                    $_SESSION['success'] = 'Данные пользователя обновлены. Перезайдите, если вы обновляли свои данные';
+                } else {
+                    $_SESSION['errors'] = 'Ошибка обновления профиля пользователя';
+                }
+            }
+            redirect();
+        }
+
+        $title = 'Редактирование пользователя';
+        $this->setMeta("Админка :: {$title}");
+        $this->set(compact('title', 'user'));
     }
 
     public function loginAdminAction()
