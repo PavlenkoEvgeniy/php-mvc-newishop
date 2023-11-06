@@ -123,7 +123,7 @@ class UserController extends AppController
 
         $orders = $this->model->get_user_orders($start, $perpage, $_SESSION['user']['id']);
 
-        $this->setMeta(___('user_orders_ttle'));
+        $this->setMeta(___('user_orders_title'));
         $this->set(compact('orders', 'pagination', 'total'));
     }
 
