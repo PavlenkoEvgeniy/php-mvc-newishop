@@ -3,10 +3,26 @@
 namespace app\controllers\admin;
 
 use app\models\admin\User;
+use core\Pagination;
+use RedBeanPHP\R;
 
 /** @property User $model */
 class UserController extends AppController
 {
+
+    public function indexAction()
+    {
+        $page = get('page');
+        $perpage = 20;
+        $total = R::count('user');
+        $pagination = new Pagination($page, $perpage, $total);
+        $start = $pagination->getStart();
+
+        $users = $this->model->get_users($start, $perpage);
+        $title = 'Список пользователей';
+        $this->setMeta("Админка :: {$title}");
+        $this->set(compact('title', 'users', 'pagination', 'total'));
+    }
 
     public function loginAdminAction()
     {
@@ -15,7 +31,6 @@ class UserController extends AppController
         }
 
         $this->layout = 'login';
-
         if (!empty($_POST)) {
             if ($this->model->login(true)) {
                 $_SESSION['success'] = 'Вы успешно авторизованы';
@@ -28,14 +43,15 @@ class UserController extends AppController
                 redirect();
             }
         }
+
     }
 
     public function logoutAction()
     {
         if ($this->model::isAdmin()) {
             unset($_SESSION['user']);
-            redirect(ADMIN . '/user/login-admin');
         }
+        redirect(ADMIN . '/user/login-admin');
     }
 
 }
