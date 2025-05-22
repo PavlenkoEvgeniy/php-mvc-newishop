@@ -29,7 +29,7 @@ A self-built PHP8 MVC framework for e-commerce websites.
 
 1. **Clone repository**:  
 ```bash
-git clone https://github.com/yourusername/php-mvc-ecommerce.git
+https://github.com/PavlenkoEvgeniy/php-mvc-newishop.git
 ```
 
 2. **Configure database**:  
